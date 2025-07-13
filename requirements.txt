@@ -1,0 +1,13 @@
+flask
+transformers
+torch
+sentencepiece
+PyMuPDF
+pdfplumber
+newspaper3k
+beautifulsoup4
+requests
+pandas
+scikit-learn
+spacy
+streamlit 
