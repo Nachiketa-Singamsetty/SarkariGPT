@@ -4,7 +4,9 @@ flask-cors==6.0.1
 gunicorn==23.0.0
 
 # AI/ML frameworks
-torch==2.5.1+cpu
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
 transformers==4.53.1
 sentence-transformers==5.0.0
 

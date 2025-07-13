@@ -7,6 +7,7 @@ echo "🚀 Starting build process..."
 
 # Install Python dependencies
 echo "📦 Installing Python packages..."
+pip install --upgrade pip
 pip install -r requirements.txt
 
 # Download spacy model
