@@ -1,17 +1,40 @@
-flask
-flask-cors
-transformers
-torch
-sentencepiece
-PyMuPDF
-pdfplumber
-newspaper3k
-beautifulsoup4
-requests
-pandas
-scikit-learn
-spacy
-streamlit
-python-dotenv
-gunicorn
-sentence-transformers 
+# Core web framework
+flask==3.1.1
+flask-cors==6.0.1
+gunicorn==23.0.0
+
+# AI/ML frameworks
+torch==2.5.1+cpu
+transformers==4.53.1
+sentence-transformers==5.0.0
+
+# Text processing (pre-compiled versions)
+sentencepiece==0.2.0
+jieba3k==0.35.1
+tinysegmenter==0.3
+
+# Document processing
+PyMuPDF==1.26.3
+pdfplumber==0.11.7
+newspaper3k==0.2.8
+
+# Web scraping and parsing
+beautifulsoup4==4.13.4
+requests==2.32.4
+feedfinder2==0.0.4
+sgmllib3k==1.0.0
+
+# Data processing
+pandas==2.3.1
+scikit-learn==1.7.0
+numpy==2.3.1
+
+# NLP and language processing
+spacy==3.8.7
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+
+# Frontend
+streamlit==1.46.1
+
+# Utilities
+python-dotenv==1.1.1 
